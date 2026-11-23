@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Caveat:wght@400;500;600;700&family=Kalam:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-text:#222120;
+  --color-bg: #fffffffd;
+  --color-browny: #ff6c22f0;
+  --color-accent: #ff6b22;
+  --color-secondary:#ffece4;
+
+  --font-Montserrat: Montserrat,cursive;
+  --font-Kalam: Kalam, sans-serif;
+  --font-caveat:"Caveat", cursive;
+
+}
+
+body{
+  margin:0;
+  font-family:'Barlow Condensed',sans-serif;
+}
