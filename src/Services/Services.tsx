@@ -11,7 +11,7 @@ const services = [
       2: "From the preparations and ceremony to the celebrations, every part of your story is captured with care and attention to detail.",
       3: "Tell me your wedding date, venue and the style of photography you have in mind. Let's plan how to capture your day.",
     },
-    image: "/wedding.jpg",
+    image: "/images/wedding.jpg",
     icon: Heart,
     reverse: false,
   },
@@ -23,7 +23,7 @@ const services = [
       2: "From corporate conferences to private celebrations, I capture the important details and candid moments.",
       3: "I capture the important details and candid moments, delivering a polished collection of photographs that tells the story of your event.",
     },
-    image: "/event moment.jpg",
+    image: "/images/event moment.jpg",
     icon: Camera,
     reverse: true,
   },
@@ -35,7 +35,7 @@ const services = [
       2: "From individual portraits to professional headshots and creative studio sessions, I focus on natural expressions, flattering lighting and carefully composed images.",
       3: "",
     },
-    image: "/portrait.jpg",
+    image: "/images/portrait.jpg",
     icon: User,
     reverse: false,
   },
@@ -47,7 +47,7 @@ const services = [
       2: "From striking product shots and lifestyle imagery to campaign visuals and brand storytelling, each image is",
       3: "crafted to make your business stand out and leave a lasting impression.",
     },
-    image: "/watch in white bg.jpg",
+    image: "/images/watch in white bg.jpg",
     icon: Briefcase,
     reverse: true,
   },
@@ -170,7 +170,7 @@ export default function Services() {
                 />
 
                 <motion.img
-                  src="/camera.png"
+                  src="/images/camera.png"
                   alt="Professional camera"
                   className="relative z-10 w-full max-w-85 aspect-square object-cover mix-blend-multiply rounded-full"
                   animate={{
@@ -294,7 +294,7 @@ export default function Services() {
                   </h3>
 
                   <motion.img
-                    src="/camera2.png"
+                    src="/images/camera2.png"
                     alt="Event photography camera"
                     className="w-full h-64 object-cover rounded-lg"
                     whileHover={{
@@ -369,7 +369,7 @@ export default function Services() {
                 >
 
                   <motion.img
-                    src="/camera4.png"
+                    src="/images/camera4.png"
                     alt="A camera"
                     className="w-full h-40 object-contain rounded-lg"
                     whileHover={{
@@ -496,7 +496,7 @@ export default function Services() {
 
                 {/* IMAGE AT THE BOTTOM */}
                 <motion.img
-                  src="/camera_with_holder.png"
+                  src="/images/camera_with_holder.png"
                   alt="Camera with holder"
                   className="absolute -bottom-6 left-0 w-full h-120 object-contain object-bottom block"
                   initial={{

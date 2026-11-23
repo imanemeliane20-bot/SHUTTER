@@ -108,7 +108,7 @@ const Hero = () => {
               className="mt-5 overflow-hidden rounded-2xl lg:h-145"
             >
               <motion.img
-                src="/person_in_orange.png"
+                src="/images/person_in_orange.png"
                 alt="Photographer capturing a moment"
                 className="h-full w-full object-cover"
                 whileHover={{ scale: 1.04 }}
