@@ -62,14 +62,14 @@ export default function Blog() {
         </div>     
 
         {/* Articles grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7 mx-40 lg:gap-9">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7 lg:mx-40 lg:gap-9">
           {filteredArticles.map((article) => {
             const isLiked = likedArticles.includes(article.id);
             const likeCount = isLiked ? 1 : 0;
             return (
               <article
                 key={article.id}
-                className="group border border-text flex flex-col min-w-0 bg-bg"
+                className="group border border-text flex flex-col min-w-80 bg-bg"
               >
                 {/* Article image */}
                 <Link
@@ -205,7 +205,6 @@ export default function Blog() {
             </button>
           </div>
         )}
-
       </div>
     </section>
   );
