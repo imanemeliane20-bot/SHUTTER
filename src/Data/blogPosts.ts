@@ -34,7 +34,7 @@ export const blogPosts: BlogPostData[] = [
     description:
       "Starting a freelance photography career feels like stepping into a vast cinematic frame where every shot you capture tells a story waiting to be told.",
     image:
-      "../../public/images/camera-blog4.webp",
+      "/images/camera-blog4.webp",
     sections: [
       {
         heading: "Start with Your Photography Style",
@@ -55,7 +55,7 @@ export const blogPosts: BlogPostData[] = [
           "Organize your work into categories so visitors can easily understand the services you offer.",
         ],
         image:
-          "../../public/images/camera-blog4.webp",
+          "/images/camera-blog4.webp",
         imageCaption: "Your portfolio should reflect your visual identity.",
       },
       {
@@ -92,7 +92,7 @@ export const blogPosts: BlogPostData[] = [
     description:
       "Creating videos that truly resonate is an art. It is about more than just pressing record. It is about capturing moments that tell a story, evoke emotion, and transport viewers to a place.",
     image:
-      "../../public/images/film-camera-blog6.webp",
+      "/images/film-camera-blog6.webp",
     sections: [
       {
         heading: "Stunning Videography Tips to Elevate Your Craft",
@@ -147,7 +147,7 @@ export const blogPosts: BlogPostData[] = [
           "Focus on the shots that carry the story, establish the atmosphere, and create emotional impact. Remove unnecessary footage and keep the final sequence engaging.",
         ],
         image:
-          "../../public/images/film-camera-blog6.webp",
+          "/images/film-camera-blog6.webp",
         imageCaption:
           "A carefully composed shot can communicate more than a long sequence of footage.",
       },
@@ -206,7 +206,7 @@ export const blogPosts: BlogPostData[] = [
     description:
       "Stepping into the world of freelance photography is like opening a door to endless stories waiting to be told. Each frame you capture holds the power to inspire.",
     image:
-      "../../public/images/camera-holding-blog7.webp",
+      "/images/camera-holding-blog7.webp",
     sections: [
       {
         heading: "Turn Your Passion into a Business",
@@ -248,7 +248,7 @@ export const blogPosts: BlogPostData[] = [
     description:
       "The right location can completely transform a photograph. Discover how to find interesting places and use their surroundings to tell better stories.",
     image:
-      "../../public/images/view-camera-blog8.webp",
+      "/images/view-camera-blog8.webp",
     sections: [
       {
         heading: "Think About the Story First",
@@ -288,7 +288,7 @@ export const blogPosts: BlogPostData[] = [
     description:
       "From preparing equipment to finding the perfect light, take a look at what happens behind the scenes of a photography project.",
     image:
-      "../../public/images/hero-camera-blog3.webp",
+      "/images/hero-camera-blog3.webp",
     sections: [
       {
         heading: "Preparing for the Day",
@@ -363,7 +363,7 @@ export const blogPosts: BlogPostData[] = [
     description:
       "You do not need every piece of equipment available. Learn which essential tools can help you get started and improve your photography.",
     image:
-      "../../public/images/hero-camera-blog1.webp",
+      "/images/hero-camera-blog1.webp",
     sections: [
       {
         heading: "Start with a Camera You Understand",
@@ -404,7 +404,7 @@ export const blogPosts: BlogPostData[] = [
     description:
       "You do not need every piece of equipment available. Learn which essential tools can help you get started and improve your photography.",
     image:
-      "../../public/images/hero-camera-blog2.webp",
+      "/images/hero-camera-blog2.webp",
     sections: [
       {
         heading: "Start with a Camera You Understand",
